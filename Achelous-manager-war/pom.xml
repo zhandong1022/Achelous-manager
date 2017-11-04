@@ -12,11 +12,25 @@
     <url>http://maven.apache.org</url>
     <dependencies>
 
+        <!--===================module dependency======================-->
+
         <dependency>
             <groupId>com.tal.thearchy</groupId>
             <artifactId>Achelous-manager-web</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <!--===================module dependency======================-->
+
+
+        <!--===================spring dependency========================-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+
+        <!--===================spring dependency========================-->
+
 
         <dependency>
             <groupId>junit</groupId>

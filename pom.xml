@@ -16,6 +16,16 @@
     <dependencyManagement>
         <dependencies>
 
+            <!--===================spring dependency========================-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
+                <version>4.3.12.RELEASE</version>
+            </dependency>
+
+            <!--===================spring dependency========================-->
+
+
         </dependencies>
     </dependencyManagement>
 
