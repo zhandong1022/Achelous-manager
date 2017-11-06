@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Achelous-manager-web</artifactId>
+    <artifactId>Achelous-manager-service</artifactId>
     <packaging>jar</packaging>
 
-    <name>Achelous-manager-web</name>
+    <name>Achelous-manager-service</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -20,25 +20,26 @@
     <dependencies>
 
 
-
-        <!--===================dependency module====================-->
-        <dependency>
-            <groupId>com.tal.thearchy</groupId>
-            <artifactId>Achelous-manager-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <!--===================dependency module====================-->
-
-
-
-
         <!--===================spring dependency========================-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+
         <!--===================spring dependency========================-->
+
+
+        <!--=================mysql============-->
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
 
 
         <dependency>
@@ -47,6 +48,5 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 </project>
