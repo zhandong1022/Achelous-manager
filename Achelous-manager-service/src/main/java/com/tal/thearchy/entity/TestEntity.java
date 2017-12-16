@@ -1,5 +1,8 @@
 package com.tal.thearchy.entity;
 
+/**
+ * @author sunzhandong
+ */
 public class TestEntity {
 
     private String host;
